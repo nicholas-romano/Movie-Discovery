@@ -1,0 +1,173 @@
+/*
+font-family: 'Exo 2', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Acme', sans-serif;
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+.jumbotron {
+  background-color: #3f609a;
+  border: 3px solid gold;
+}
+
+.jumbotron .display-4 {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+
+.lead {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.directions {
+  font-size: 14pt;
+  margin-top: 15px;
+}
+
+.search-label {
+  font-size: 30pt;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.search-section {
+  min-height: 150px;
+  width: 100%;
+  border: 10px solid #3f609a;
+  border-radius: 5px;
+  background-color: #b1c7ee;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.search-input {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-control {
+  text-align: center;
+  font-size: 18pt;
+  width: 100%;
+}
+
+.search-button {
+  margin-top: 15px;
+  width: 100%;
+  font-size: 22pt;
+  color: white;
+  background-color: green;
+}
+
+.search-button:hover {
+  background-color: #31c723;
+}
+
+.movie-results {
+  border: 10px solid #3f609a;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #b1c7ee;
+  margin-top: 10px;
+}
+
+.thumbnail {
+  height: 850px;
+}
+
+.thumbnail .not-available {
+  height: 354px;
+  color: white;
+  background-color: #ccc;
+  font-size: 24pt;
+  padding-top: 50%;
+  text-align: center;
+}
+
+.thumbnail a img {
+  height: 354px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.container-fluid {
+  height: 850px;
+}
+
+.caption h3 {
+  background-color: #3f609a;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid gold;
+  border-radius: 5px;
+}
+
+.read-more-link {
+  background-color: #1cb44c;
+  color: white;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.read-more-link:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.read-more-link-container {
+  width: 120px;
+  float: right;
+}
+
+.summary {
+  background-color: #b1c7ee;
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 130px;
+  padding-bottom: 10px;
+  float: left;
+  width: 100%;
+}
+
+.glyphicon.glyphicon-star {
+  color: gold;
+  margin-bottom: 2px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.glyphicon.glyphicon-heart {
+  color: red;
+}
+
+.badge.badge-info {
+  background-color: #3f609a;
+}
+
+.likes-label {
+  font-family: 'Exo 2', sans-serif;
+}
